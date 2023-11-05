@@ -29,11 +29,11 @@ function App() {
       />
       <NewTaskForm
         categories={CATEGORIES.filter((category) => category !== "All")}
-        tasks={tasks} // Pass tasks to NewTaskForm to handle task creation
+        tasks={tasks} 
       />
       <TaskList
         selectedCategory={selectedCategory}
-        tasks={tasks} // Pass tasks and deleteTask to TaskList
+        tasks={tasks} /
         deleteTask={deleteTask}
       />
     </div>
